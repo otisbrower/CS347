@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3F6378C-786D-2730-5C97-EE8A6C8812CD" name="Project">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 20:01:22 UTC</createdTime>
+<ownerDesignName>GroupProjectSave</ownerDesignName>
+<engineerTo>
+<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Project_No" id="32CFBEB6-146D-0598-EC6D-E55C0CBD8634">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 20:01:29 UTC</createdTime>
+<ownerDesignName>GroupProjectSave</ownerDesignName>
+<engineerTo>
+<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Project_Title" id="21932E42-6431-90E1-6489-73A2C6FC0C54">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 20:01:41 UTC</createdTime>
+<ownerDesignName>GroupProjectSave</ownerDesignName>
+<engineerTo>
+<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Employee_ID" id="2CECE439-C80B-AA73-D5EA-D9204EDFD019">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 20:30:02 UTC</createdTime>
+<generatorID>DBC7F5A2-C8F4-B41F-A211-C9F5346BCEB5</generatorID>
+<ownerDesignName>GroupProjectSave</ownerDesignName>
+<engineerTo>
+<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
+</engineerTo>
+<referedAttribute>89517673-8A36-794E-92BF-5D0BCEC92FD4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dept_No" id="3820CDEC-9EE9-ED6E-7C8C-B4E65E6EF436">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 20:36:34 UTC</createdTime>
+<generatorID>A5E136D4-0817-42ED-C601-2DE14415957C</generatorID>
+<ownerDesignName>GroupProjectSave</ownerDesignName>
+<engineerTo>
+<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
+</engineerTo>
+<referedAttribute>00587311-A5AF-0FE7-22FA-133BC0D4679B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Project_No1" id="D60F999B-85E7-9519-38D0-D15E65038E49">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 20:37:00 UTC</createdTime>
+<generatorID>23EF46F8-20D3-D437-6761-174212B49CC2</generatorID>
+<ownerDesignName>GroupProjectSave</ownerDesignName>
+<engineerTo>
+<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
+</engineerTo>
+<referedAttribute>32CFBEB6-146D-0598-EC6D-E55C0CBD8634</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Project_No2" id="C65D6820-58E6-71F3-E156-E74EF2D90583">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 20:37:38 UTC</createdTime>
+<generatorID>BD26A20E-EB65-54D7-4361-79C16CF936DE</generatorID>
+<ownerDesignName>GroupProjectSave</ownerDesignName>
+<engineerTo>
+<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
+</engineerTo>
+<referedAttribute>32CFBEB6-146D-0598-EC6D-E55C0CBD8634</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F47DF813-B9EB-17CD-6D32-E860F25AE628" name="Project PK">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 20:01:40 UTC</createdTime>
+<ownerDesignName>GroupProjectSave</ownerDesignName>
+<engineerTo>
+<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>32CFBEB6-146D-0598-EC6D-E55C0CBD8634</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

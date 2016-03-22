@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="35FE5439-BCB9-6416-BBF3-67683124B2F0" name="Employee">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 19:57:47 UTC</createdTime>
+<ownerDesignName>GroupProjectSave</ownerDesignName>
+<engineerTo>
+<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>DDE4BF6A-8AE6-4977-B5DF-7503F8C15274</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Employee_ID" id="89517673-8A36-794E-92BF-5D0BCEC92FD4">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 19:58:02 UTC</createdTime>
+<ownerDesignName>GroupProjectSave</ownerDesignName>
+<engineerTo>
+<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Salary" id="7538EA78-3A21-618F-57BA-EACA77216CC8">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 19:58:14 UTC</createdTime>
+<ownerDesignName>GroupProjectSave</ownerDesignName>
+<engineerTo>
+<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Salary_Exception" id="F763620D-8572-5067-7262-B05337A812CB">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 19:58:25 UTC</createdTime>
+<ownerDesignName>GroupProjectSave</ownerDesignName>
+<engineerTo>
+<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Employee_ID2" id="C5362E2E-51DB-C2B7-2C17-BBF5208DA683">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 20:12:56 UTC</createdTime>
+<generatorID>50B4A207-D6BE-94D6-01B2-68EE5AFB7C8D</generatorID>
+<ownerDesignName>GroupProjectSave</ownerDesignName>
+<engineerTo>
+<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
+</engineerTo>
+<referedAttribute>89517673-8A36-794E-92BF-5D0BCEC92FD4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Employee_ID1" id="6BD2A90E-9554-DACC-83E9-041D38D52DC5">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 20:26:21 UTC</createdTime>
+<generatorID>2735B121-F65C-387C-153E-86D40D62287E</generatorID>
+<ownerDesignName>GroupProjectSave</ownerDesignName>
+<engineerTo>
+<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
+</engineerTo>
+<referedAttribute>89517673-8A36-794E-92BF-5D0BCEC92FD4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E7695FAF-A526-E838-A4EC-DFD0941BC7D3" name="Employee PK">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 19:58:08 UTC</createdTime>
+<ownerDesignName>GroupProjectSave</ownerDesignName>
+<engineerTo>
+<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>89517673-8A36-794E-92BF-5D0BCEC92FD4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

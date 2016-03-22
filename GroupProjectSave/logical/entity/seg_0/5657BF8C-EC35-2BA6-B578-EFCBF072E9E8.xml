@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5657BF8C-EC35-2BA6-B578-EFCBF072E9E8" name="Manager">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 19:59:19 UTC</createdTime>
+<ownerDesignName>GroupProjectSave</ownerDesignName>
+<engineerTo>
+<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>35FE5439-BCB9-6416-BBF3-67683124B2F0</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Bonus" id="8DE2E38E-2FB1-FA91-C407-66ABCC48A2C9">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 19:59:28 UTC</createdTime>
+<ownerDesignName>GroupProjectSave</ownerDesignName>
+<engineerTo>
+<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Project_No" id="F0E4B840-1F93-1342-D6E2-AD68DBFED77F">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 20:25:43 UTC</createdTime>
+<generatorID>F61CEB66-6316-C23B-07F4-B3580B26AE1C</generatorID>
+<ownerDesignName>GroupProjectSave</ownerDesignName>
+<engineerTo>
+<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
+</engineerTo>
+<referedAttribute>32CFBEB6-146D-0598-EC6D-E55C0CBD8634</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dept_No" id="05FDE11D-1114-0EAF-42F7-B29F6CACB8DD">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 20:27:22 UTC</createdTime>
+<generatorID>1C2EB090-B581-0B81-20E9-8F0EE240F3B1</generatorID>
+<ownerDesignName>GroupProjectSave</ownerDesignName>
+<engineerTo>
+<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
+</engineerTo>
+<referedAttribute>00587311-A5AF-0FE7-22FA-133BC0D4679B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
