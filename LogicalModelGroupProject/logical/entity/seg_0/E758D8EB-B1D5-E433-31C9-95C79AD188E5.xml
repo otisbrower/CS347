@@ -1,0 +1,213 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E758D8EB-B1D5-E433-31C9-95C79AD188E5" name="Person">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:03:57 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Person_ID" id="71FF369D-B54D-0AF5-B4C3-B9F4DEB11BDB">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:04:28 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="First_Name" id="03545383-5124-527F-2889-B9D5E0DC43F8">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:09:52 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last_Name" id="1A3CF8AB-F465-4EA4-2286-DC8449B2A225">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:10:04 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Home_Address" id="9938DD40-4086-B472-3701-23A06089F3EF">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:10:16 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Zip_Code" id="649AF0BF-2F27-0846-5F8A-687B9EABDD94">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:10:27 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Home_Phone" id="D0E2AFC9-456B-8900-C459-2A38CEA52419">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:10:33 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="US_Citizen" id="C5008346-854A-8986-8722-56C3635677D7">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:10:42 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Employee_ID" id="24F9C45F-B2C5-4E2C-A23E-5935BB0B7AB6">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:10:52 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Salary" id="6D943052-0F4F-8BF9-40CF-D0B20FEFFF4B">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:11:06 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Salary_Exception" id="B2C2570F-5B7A-4C24-668C-3C35F1264C32">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:11:36 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bonus" id="BCB5F2F2-0B59-B912-F806-2F3F77519435">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:11:46 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Project_No" id="DD6C5E19-FB20-5587-EAFF-B9720222731F">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:13:12 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dept_No" id="B812743D-4257-8679-B896-8FCC28A8BA43">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:13:41 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Is_Fired" id="6914AB00-D2F3-97C0-CE0E-8E944F759E23">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:14:16 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F1C255BC-A03D-517A-8832-00814E2897B1" name="Person PK">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:09:51 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>71FF369D-B54D-0AF5-B4C3-B9F4DEB11BDB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

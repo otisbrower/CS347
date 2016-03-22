@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C196C3C9-35E4-1A63-9ECA-75019D989383" name="Project">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:15:16 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Project_No" id="751EE479-BFBA-1987-3C6E-387946E5CC26">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:15:23 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Project_Title" id="22256B01-245A-B7CF-721C-86BD93F458DF">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:15:33 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Project_Active" id="1B12178E-314C-AC24-0D3C-14E2FBBC9439">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:15:43 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="End_Date_Month" id="44954E95-548C-F022-27DC-650EFE48383C">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:15:56 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="End_Date_Day" id="9B2E172E-5DCA-2AB4-75A5-B3E586160602">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:16:08 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="End_Date_Year" id="7C1ECCC2-612D-9CEF-7186-1BBDA8CDF9C0">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:16:17 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Est_Person_Hours" id="52B4E32A-A4A5-F3E1-CB8A-2B0DE33D1B90">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:16:24 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3869D97C-0C57-A0C8-BA9D-183464440770" name="Project PK">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-22 21:15:32 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>751EE479-BFBA-1987-3C6E-387946E5CC26</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
