@@ -2,7 +2,14 @@ Semester Project
 Questions:
 
 1) Should the relationship between employee and manager be optional, exp. does a manager have to have employees?
+Relationships almost always optional unless good reason to make them required
 2) Would a project employee be required for current-project?
-3) Can an employee be assigned to multiple project?
-4) Does Project class and Current Project subclass need assigned managers, or can manager be assigned only to the Project class. 
+no could be not active
+3) Can an employee be assigned to multiple projects?
+yes
+4) Does Project class and Current Project subclass need assigned managers, or can manager be assigned only to the Project class.
+Only need to be assigned to Project class
 5) For Sim, how does the inverse children relationship work?
+It just means relationships are bidirectional in sim. He said for now we should make our relationships bidirectional (i.e. have one going each way) in our models as well.
+
+Summary of meeting: He answered the questions, said he would put the sim syntax manual or something similar to that on the project page, and then said to keep these questions for when we present our project next week. —Zach
