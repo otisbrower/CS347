@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="C196C3C9-35E4-1A63-9ECA-75019D989383" name="Project" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="68B4238D-1ACB-53B1-844F-2D6EDE77ADCF" propertySourceId="" propertyTargetId=""/>
    <object objectType="Entity" objectID="E0ED0AE5-0B05-284D-E904-C54220E91FAA" name="Department" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="68B4238D-1ACB-53B1-844F-2D6EDE77ADCF" propertySourceId="" propertyTargetId=""/>
    <object objectType="Entity" objectID="E758D8EB-B1D5-E433-31C9-95C79AD188E5" name="Person" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="68B4238D-1ACB-53B1-844F-2D6EDE77ADCF" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Entity" objectID="C196C3C9-35E4-1A63-9ECA-75019D989383" name="Project" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="68B4238D-1ACB-53B1-844F-2D6EDE77ADCF" propertySourceId="" propertyTargetId=""/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,19 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Children" directorySegmentName="seg_0" id="F4EF3CCD-BE5E-58D7-875A-B674C9720EE3">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Proj_Emp_Cur_Proj" directorySegmentName="seg_0" id="09344740-3C89-9E74-E4F6-8607CB0A98EF">
 <createdBy>zacharycasares</createdBy>
-<createdTime>2016-03-22 20:06:49 UTC</createdTime>
+<createdTime>2016-03-24 19:48:12 UTC</createdTime>
 <ownerDesignName>GroupProjectSave</ownerDesignName>
 <engineerTo>
 <item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
 </engineerTo>
-<targetPk>8D9F02F8-2E8E-7399-62B3-454A3DB924FC</targetPk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
-<sourceEntity>DDE4BF6A-8AE6-4977-B5DF-7503F8C15274</sourceEntity>
-<targetCardinalityString>1</targetCardinalityString>
-<targetEntity>DDE4BF6A-8AE6-4977-B5DF-7503F8C15274</targetEntity>
+<sourceEntity>293BB047-47D6-9966-3E8C-58494CDC7E9C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0CC546F2-E8E4-18F0-6D10-C7A59167CAFB</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

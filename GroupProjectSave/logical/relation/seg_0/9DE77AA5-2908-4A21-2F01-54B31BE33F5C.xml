@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Parents" directorySegmentName="seg_0" id="9DE77AA5-2908-4A21-2F01-54B31BE33F5C">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Parent-Child" directorySegmentName="seg_0" id="9DE77AA5-2908-4A21-2F01-54B31BE33F5C">
 <createdBy>zacharycasares</createdBy>
 <createdTime>2016-03-22 20:08:03 UTC</createdTime>
 <ownerDesignName>GroupProjectSave</ownerDesignName>
@@ -9,10 +9,10 @@
 <targetPk>8D9F02F8-2E8E-7399-62B3-454A3DB924FC</targetPk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
-<optionalTarget>true</optionalTarget>
+<optionalTarget>false</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>DDE4BF6A-8AE6-4977-B5DF-7503F8C15274</sourceEntity>
-<targetCardinalityString>1</targetCardinalityString>
+<targetCardinalityString>*</targetCardinalityString>
 <targetEntity>DDE4BF6A-8AE6-4977-B5DF-7503F8C15274</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

@@ -1,18 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Subproject_Of" directorySegmentName="seg_0" id="BD26A20E-EB65-54D7-4361-79C16CF936DE">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Project_Subprojects" directorySegmentName="seg_0" id="25336843-0BFE-2504-96D1-1E662C2B0355">
 <createdBy>zacharycasares</createdBy>
-<createdTime>2016-03-22 20:37:38 UTC</createdTime>
+<createdTime>2016-03-24 19:51:17 UTC</createdTime>
 <ownerDesignName>GroupProjectSave</ownerDesignName>
 <engineerTo>
 <item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
 </engineerTo>
-<targetPk>F47DF813-B9EB-17CD-6D32-E860F25AE628</targetPk>
 <identifying>false</identifying>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>F3F6378C-786D-2730-5C97-EE8A6C8812CD</sourceEntity>
-<targetCardinalityString>1</targetCardinalityString>
+<targetCardinalityString>*</targetCardinalityString>
 <targetEntity>F3F6378C-786D-2730-5C97-EE8A6C8812CD</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

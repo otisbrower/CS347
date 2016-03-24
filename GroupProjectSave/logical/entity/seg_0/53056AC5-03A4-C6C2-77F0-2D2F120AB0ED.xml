@@ -40,34 +40,6 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Employee_ID" id="D83E2C92-0342-7126-BC66-71F187D74359">
-<createdBy>zacharycasares</createdBy>
-<createdTime>2016-03-22 20:26:54 UTC</createdTime>
-<generatorID>C2C97259-F976-ECC6-7D73-7E544FC59BC1</generatorID>
-<ownerDesignName>GroupProjectSave</ownerDesignName>
-<engineerTo>
-<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
-</engineerTo>
-<referedAttribute>89517673-8A36-794E-92BF-5D0BCEC92FD4</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Project_No" id="4133536D-16D0-85A5-8AFD-AC0132B4B471">
-<createdBy>zacharycasares</createdBy>
-<createdTime>2016-03-22 20:35:43 UTC</createdTime>
-<generatorID>B2005A33-58D7-AAED-B8B4-577AA4A53AE2</generatorID>
-<ownerDesignName>GroupProjectSave</ownerDesignName>
-<engineerTo>
-<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
-</engineerTo>
-<referedAttribute>32CFBEB6-146D-0598-EC6D-E55C0CBD8634</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="30FC5015-0021-B764-727F-0BA02CF11D53" name="Department PK">

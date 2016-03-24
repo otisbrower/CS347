@@ -106,40 +106,10 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Person_ID1" id="0D6BFDBC-5F83-F181-C96B-AA3F0FD7466C">
-<createdBy>zacharycasares</createdBy>
-<createdTime>2016-03-22 20:06:49 UTC</createdTime>
-<generatorID>F4EF3CCD-BE5E-58D7-875A-B674C9720EE3</generatorID>
-<ownerDesignName>GroupProjectSave</ownerDesignName>
-<engineerTo>
-<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>8E47E419-7F04-01D6-A283-772D20E76AC9</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Person_ID2" id="2FF1E444-3E16-1BD4-F6B9-36D24746F44D">
 <createdBy>zacharycasares</createdBy>
 <createdTime>2016-03-22 20:07:36 UTC</createdTime>
 <generatorID>ED15ECCC-938C-0F6E-1772-173EA6619A13</generatorID>
-<ownerDesignName>GroupProjectSave</ownerDesignName>
-<engineerTo>
-<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>8E47E419-7F04-01D6-A283-772D20E76AC9</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Person_ID3" id="45CD28FD-A0DE-42A8-37D6-3366D0392B67">
-<createdBy>zacharycasares</createdBy>
-<createdTime>2016-03-22 20:08:03 UTC</createdTime>
-<generatorID>9DE77AA5-2908-4A21-2F01-54B31BE33F5C</generatorID>
 <ownerDesignName>GroupProjectSave</ownerDesignName>
 <engineerTo>
 <item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
