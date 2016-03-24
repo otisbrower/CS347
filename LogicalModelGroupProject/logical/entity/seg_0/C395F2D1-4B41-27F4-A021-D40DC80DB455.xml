@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0ED0AE5-0B05-284D-E904-C54220E91FAA" name="Department">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C395F2D1-4B41-27F4-A021-D40DC80DB455" name="Proj_Subproj">
 <createdBy>zacharycasares</createdBy>
-<createdTime>2016-03-22 21:16:42 UTC</createdTime>
+<createdTime>2016-03-24 20:17:06 UTC</createdTime>
 <ownerDesignName>LogicalModelGroupProject</ownerDesignName>
 <engineerTo>
 <item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
@@ -15,45 +15,34 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Dept_No" id="43F3E916-B487-F05E-3973-CC4409A22807">
+<Attribute name="Project_No" id="BCE13A48-EB9D-A5FA-4645-7A1BC0D06092">
 <createdBy>zacharycasares</createdBy>
-<createdTime>2016-03-22 21:16:46 UTC</createdTime>
+<createdTime>2016-03-24 20:17:16 UTC</createdTime>
+<generatorID>0D5CB50B-E6AD-D06A-FDE9-37E320102ED8</generatorID>
 <ownerDesignName>LogicalModelGroupProject</ownerDesignName>
 <engineerTo>
 <item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
 </engineerTo>
+<referedAttribute>751EE479-BFBA-1987-3C6E-387946E5CC26</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Dept_Name" id="AB5EB209-4C9B-BEE6-A544-9DEB7BDDC652">
+<Attribute name="Project_No1" id="7438F395-F263-7696-FFFE-36F0F7C0F3C7">
 <createdBy>zacharycasares</createdBy>
-<createdTime>2016-03-22 21:16:55 UTC</createdTime>
+<createdTime>2016-03-24 20:18:43 UTC</createdTime>
+<generatorID>971FFF28-CF24-C57A-764B-56E1243C9237</generatorID>
 <ownerDesignName>LogicalModelGroupProject</ownerDesignName>
 <engineerTo>
 <item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>751EE479-BFBA-1987-3C6E-387946E5CC26</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="738C8DDB-5492-81C8-0B6E-FC14D32E83F3" name="Department PK">
-<createdBy>zacharycasares</createdBy>
-<createdTime>2016-03-22 21:16:52 UTC</createdTime>
-<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="false"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>43F3E916-B487-F05E-3973-CC4409A22807</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

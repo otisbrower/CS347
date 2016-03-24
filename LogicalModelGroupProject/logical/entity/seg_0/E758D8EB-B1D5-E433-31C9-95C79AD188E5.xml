@@ -195,14 +195,43 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Person_ID1" id="C66E3FF9-62DF-AF07-D1C0-8A3D0F31B82B">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-24 20:10:10 UTC</createdTime>
+<generatorID>61740B53-57A4-59C6-E4C8-8FA6CDF24A0B</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>71FF369D-B54D-0AF5-B4C3-B9F4DEB11BDB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type" id="0CAF6CE0-905C-74F9-7305-40947508A393">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-24 21:07:34 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="F1C255BC-A03D-517A-8832-00814E2897B1" name="Person PK">
 <createdBy>zacharycasares</createdBy>
 <createdTime>2016-03-22 21:09:51 UTC</createdTime>
 <ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

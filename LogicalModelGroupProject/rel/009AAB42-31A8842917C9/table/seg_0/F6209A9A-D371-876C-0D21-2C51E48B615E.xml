@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6209A9A-D371-876C-0D21-2C51E48B615E" name="Man_Dept">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-24 20:22:54 UTC</createdTime>
+<generatorID>E3284AAD-55B9-842E-A338-CDF365FC40EE</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<ordsAlias>manager_department</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Person_Person_ID" id="56745870-DA09-C454-B34F-FAF907A7193D">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-24 20:22:54 UTC</createdTime>
+<generatorID>F6650A09-2A20-FFFC-0C14-D6BA627E430D</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4327C435-65FD-BEBB-2E7B-ED763EEF9C7D" referredColumn="D40C8B18-31DB-DCEA-E4DE-0DEC152200D9"/>
+</associations>
+</Column>
+<Column name="Person_ID1" id="8A8ADCEF-A0D3-5BA2-5A4F-71CFE5F03D94">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-24 20:22:54 UTC</createdTime>
+<generatorID>D3C9225A-61C7-29F1-FE65-751BB29B56ED</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Department_Dept_No" id="929EA2B0-5EC0-201D-A01B-BE898D01B858">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-24 20:25:46 UTC</createdTime>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB62E5DB-6901-F084-D9E9-7FB68CB6D543" referredColumn="823665FD-64CE-BC80-43F2-62AD17FA6874"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4539AD5F-ED5B-64DD-AAD5-726297A51A0D" name="Man_Dept_Department_FK">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-24 20:22:54 UTC</createdTime>
+<generatorID>07D3F5F9-E467-6AB4-82A6-77D53D3F9C62</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="929EA2B0-5EC0-201D-A01B-BE898D01B858"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFD93B58-049B-C7DA-1760-0EC4C070CD31" name="Man_Dept_Person_FK">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-24 20:22:54 UTC</createdTime>
+<generatorID>4A03A493-5460-7ED6-B843-D2F2DC22F840</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56745870-DA09-C454-B34F-FAF907A7193D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
