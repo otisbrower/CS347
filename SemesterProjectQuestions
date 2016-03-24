@@ -13,3 +13,14 @@ Only need to be assigned to Project class
 It just means relationships are bidirectional in sim. He said for now we should make our relationships bidirectional (i.e. have one going each way) in our models as well.
 
 Summary of meeting: He answered the questions, said he would put the sim syntax manual or something similar to that on the project page, and then said to keep these questions for when we present our project next week. —Zach
+
+Notes:
+conceptual model, person will have a many to many relationship to person, for parents -> children and children -> parents, this will become a one to many relationship in logical model for parent -> children and child -> parents, will need 2 foreign keys.
+
+Same will happen with employee -> manager if an employee can have multiple managers
+
+Relaitonships should be optional unless there is a good reason for them to be required.
+Disable foreign key requirements, 
+
+Employees can be on many projects, projects do not have to have employees if they are not active or finished.
+
