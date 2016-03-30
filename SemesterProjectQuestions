@@ -12,6 +12,11 @@ Only need to be assigned to Project class
 5) For Sim, how does the inverse children relationship work?
 It just means relationships are bidirectional in sim. He said for now we should make our relationships bidirectional (i.e. have one going each way) in our models as well.
 
+
+6) Should we allow people to be in the database that are not current or former employees?
+7) Would entering a new employee into the database require the person to be a manager level or above?
+8)
+
 Summary of meeting: He answered the questions, said he would put the sim syntax manual or something similar to that on the project page, and then said to keep these questions for when we present our project next week. —Zach
 
 Notes:
@@ -23,4 +28,11 @@ Relaitonships should be optional unless there is a good reason for them to be re
 Disable foreign key requirements, 
 
 Employees can be on many projects, projects do not have to have employees if they are not active or finished.
+
+
+Notes for Triggers:
+Employee_ID Trigger to automatically generate ID
+Figure out Person_ID trigger
+Current_Project Trigger, failed to validate.
+
 
