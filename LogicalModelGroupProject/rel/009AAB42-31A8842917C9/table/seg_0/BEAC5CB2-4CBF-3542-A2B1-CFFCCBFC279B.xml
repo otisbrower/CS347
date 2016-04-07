@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BEAC5CB2-4CBF-3542-A2B1-CFFCCBFC279B" name="347Proj_Man">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>BB142797-BFF9-4E6F-FEC9-2D8EDC762E0C</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="347Person_Person_ID" id="9696401B-750E-D6AF-C210-D118B1CC1D94">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>2E2E2F50-23B2-0D72-4178-7247C6810D41</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="141D7D8A-6701-F93D-6922-CD643E3987EC" referredColumn="8F39786E-25AD-41F3-09CA-7738D2F7129A"/>
+</associations>
+</Column>
+<Column name="347Proj_Project_No" id="BBA791E7-AA47-3FBD-DB6C-E81C7441FFA2">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>E53C57CB-88D2-1B64-7282-F731BB98A956</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="187BE1FE-EE22-11CA-B5AD-98F60331312A" referredColumn="A5EA7D91-E2DF-CEAF-810D-335C65090178"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E539B3F-6370-B5BF-A7F8-1A57A03AE248" name="347Proj_Man_347Person_FK">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>4BC5B682-2FF1-930D-8A7C-F4B9109C8761</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9696401B-750E-D6AF-C210-D118B1CC1D94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C54D817A-CB8E-6E83-780A-E7F7F4C9EB06" name="347Proj_Man_347Proj_FK">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>3752A65E-6F29-5470-6089-E42C3358E4F5</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBA791E7-AA47-3FBD-DB6C-E81C7441FFA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE637820-07BF-02B4-B28E-A0C2259D5B9D" name="347Proj">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>C196C3C9-35E4-1A63-9ECA-75019D989383</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Project_No" id="A5EA7D91-E2DF-CEAF-810D-335C65090178">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>751EE479-BFBA-1987-3C6E-387946E5CC26</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Project_Title" id="F41B715F-907B-2894-FFB4-FC915B0E9E6B">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>22256B01-245A-B7CF-721C-86BD93F458DF</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Project_Active" id="89E1E4D0-ADAA-4EC6-C32C-1B844997CB58">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>1B12178E-314C-AC24-0D3C-14E2FBBC9439</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="End_Date_Month" id="23570D84-3813-97DB-1EC8-A0A36AC64968">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>44954E95-548C-F022-27DC-650EFE48383C</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="End_Date_Day" id="1F4D8F7C-DEC8-50CA-7CB1-EDD8DF149AAD">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>9B2E172E-5DCA-2AB4-75A5-B3E586160602</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="End_Date_Year" id="ED9C5390-8E86-69AD-A61A-3AB5D1CA9AEB">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>7C1ECCC2-612D-9CEF-7186-1BBDA8CDF9C0</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Est_Person_Hours" id="01B4C370-5480-C0BF-71C1-449A11D1C820">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>52B4E32A-A4A5-F3E1-CB8A-2B0DE33D1B90</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type" id="6502E1DD-7793-937C-7BD8-B56A3C0EE4A7">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>DC1C406C-C148-1AFC-5700-C9D001B80423</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="347Proj_Project_No" id="8834AE1E-AE37-02B4-7919-8AACCCBAD874">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>B9C2CB1D-B7DE-53D1-61BA-BE8EC4CCAC88</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51570ECB-D93B-B3DF-853C-B83B60EADB71" referredColumn="A5EA7D91-E2DF-CEAF-810D-335C65090178"/>
+</associations>
+</Column>
+<Column name="347Dept_Dept_No" id="30015ABB-DE2F-D050-8B31-EF59ABA6E674">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>A9B2A307-E362-CEF5-818F-ACA38AC50BC2</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37E34D93-434F-6AB2-F330-637F83FF8E7D" referredColumn="CEFEEC45-1E21-B48E-8B82-59A0D8A118D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECFE1E21-5591-D3E2-6574-9A21879E9E88" name="347Proj_PK">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>3869D97C-0C57-A0C8-BA9D-183464440770</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5EA7D91-E2DF-CEAF-810D-335C65090178"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46218FC4-7C37-B837-DA3D-79B3135FEC9C" name="347Proj_347Dept_FK">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>5AFF18EF-FBE0-6E43-15F2-92CF0CA805FA</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30015ABB-DE2F-D050-8B31-EF59ABA6E674"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DBD8576-0176-E08C-934E-6617B388F6B6" name="347Proj_347Proj_FK">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>6D614623-2101-5D8C-8098-815A1EA12E74</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8834AE1E-AE37-02B4-7919-8AACCCBAD874"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="342520A7-5522-38E6-79E8-EE2EB6DACEC4" name="347Dept">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>E0ED0AE5-0B05-284D-E904-C54220E91FAA</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Dept_No" id="CEFEEC45-1E21-B48E-8B82-59A0D8A118D8">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>43F3E916-B487-F05E-3973-CC4409A22807</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dept_Name" id="728C78D5-21A4-69D1-132B-9D964865B7F9">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>AB5EB209-4C9B-BEE6-A544-9DEB7BDDC652</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47C29B3A-F331-BDCC-C7DD-A9B0875731F2" name="347Dept_PK">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>738C8DDB-5492-81C8-0B6E-FC14D32E83F3</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEFEEC45-1E21-B48E-8B82-59A0D8A118D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
