@@ -29,5 +29,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Dept_No" id="5C916290-BB99-81E3-5309-3A1687847D2E">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-31 19:48:51 UTC</createdTime>
+<generatorID>5BA87C53-BB44-A1F6-66E6-6492CA0FC04A</generatorID>
+<ownerDesignName>GroupProjectSave</ownerDesignName>
+<engineerTo>
+<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>00587311-A5AF-0FE7-22FA-133BC0D4679B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 </Entity>

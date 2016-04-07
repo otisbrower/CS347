@@ -40,6 +40,36 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Project_No1" id="B26E74BC-90F6-9B64-53A4-4125AE982267">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-31 19:49:11 UTC</createdTime>
+<generatorID>25336843-0BFE-2504-96D1-1E662C2B0355</generatorID>
+<ownerDesignName>GroupProjectSave</ownerDesignName>
+<engineerTo>
+<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>32CFBEB6-146D-0598-EC6D-E55C0CBD8634</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dept_No" id="9369B321-5FEE-98C1-074A-ECAA0613D3B4">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-31 19:49:20 UTC</createdTime>
+<generatorID>51272167-229F-39E2-EACC-EFAEF008DD63</generatorID>
+<ownerDesignName>GroupProjectSave</ownerDesignName>
+<engineerTo>
+<item key="88CD9044-6604-866E-655A-9A61BE6C8F1E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>00587311-A5AF-0FE7-22FA-133BC0D4679B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="F47DF813-B9EB-17CD-6D32-E860F25AE628" name="Project PK">

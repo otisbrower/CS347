@@ -223,6 +223,36 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Dept_No1" id="91CC14A6-1CB5-4698-D6B0-2A28D5FFFE86">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-31 19:52:01 UTC</createdTime>
+<generatorID>1BB7B80B-520A-447E-F3C1-731FE85B2893</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>43F3E916-B487-F05E-3973-CC4409A22807</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Project_No1" id="DEAF98BD-A57A-A157-D09C-B77C0F0A6858">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-03-31 19:52:51 UTC</createdTime>
+<generatorID>DD892418-5A6E-35A1-88FC-818B737F19E1</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<engineerTo>
+<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>751EE479-BFBA-1987-3C6E-387946E5CC26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="F1C255BC-A03D-517A-8832-00814E2897B1" name="Person PK">

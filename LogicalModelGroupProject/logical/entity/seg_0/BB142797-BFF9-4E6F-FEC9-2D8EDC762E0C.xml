@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E5570E99-3B64-A6B8-DDF2-AABAFE287E51" name="Proj_Dept">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB142797-BFF9-4E6F-FEC9-2D8EDC762E0C" name="Project_Manager">
 <createdBy>zacharycasares</createdBy>
-<createdTime>2016-03-24 20:20:44 UTC</createdTime>
+<createdTime>2016-03-31 19:58:14 UTC</createdTime>
 <ownerDesignName>LogicalModelGroupProject</ownerDesignName>
 <engineerTo>
 <item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
@@ -15,25 +15,25 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Dept_No" id="1720DEB9-35EC-2013-0EA8-E04DFC9F5350">
+<Attribute name="Person_ID" id="2E2E2F50-23B2-0D72-4178-7247C6810D41">
 <createdBy>zacharycasares</createdBy>
-<createdTime>2016-03-24 20:20:54 UTC</createdTime>
-<generatorID>5D45CCD4-6B12-BF5B-EB3B-C8F955A7C37F</generatorID>
+<createdTime>2016-03-31 19:58:48 UTC</createdTime>
+<generatorID>4BC5B682-2FF1-930D-8A7C-F4B9109C8761</generatorID>
 <ownerDesignName>LogicalModelGroupProject</ownerDesignName>
 <engineerTo>
 <item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<referedAttribute>43F3E916-B487-F05E-3973-CC4409A22807</referedAttribute>
+<referedAttribute>71FF369D-B54D-0AF5-B4C3-B9F4DEB11BDB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Project_No" id="46ADB74A-0A6F-B8A2-5792-F71795394225">
+<Attribute name="Project_No" id="E53C57CB-88D2-1B64-7282-F731BB98A956">
 <createdBy>zacharycasares</createdBy>
-<createdTime>2016-03-24 20:21:51 UTC</createdTime>
-<generatorID>2ECFD1B9-D86F-4EDF-A197-9839142EA27E</generatorID>
+<createdTime>2016-03-31 19:59:57 UTC</createdTime>
+<generatorID>3752A65E-6F29-5470-6089-E42C3358E4F5</generatorID>
 <ownerDesignName>LogicalModelGroupProject</ownerDesignName>
 <engineerTo>
 <item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
