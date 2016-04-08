@@ -14,7 +14,7 @@ create or replace trigger Employee_trigger
   instead of insert on Employee_view
   for each row
  begin
-  insert into Person( Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Employee_ID, Salary, Salary_Exception, Type )
+  insert into CS_Person( Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Employee_ID, Salary, Salary_Exception, Type )
   values(:NEW.Person_ID, :NEW.First_Name, :NEW.Last_Name, :NEW.Home_Address, :NEW.Zip_Code, :NEW.Home_Phone, :NEW.US_Citizen, :NEW.Employee_ID, :NEW.Salary, :NEW.Salary_Exception, 'Employee');
  end;
  /
@@ -26,7 +26,7 @@ create or replace trigger Project_Employee_trigger
   instead of insert on Project_Employee_view
   for each row
  begin
-  insert into Person(  Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Employee_ID, Salary, Salary_Exception, Type)
+  insert into 347Person(  Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Employee_ID, Salary, Salary_Exception, Type)
   values(:NEW.Person_ID, :NEW.First_Name, :NEW.Last_Name, :NEW.Home_Address, :NEW.Zip_Code, :NEW.Home_Phone, :NEW.US_Citizen, :NEW.Employee_ID, :NEW.Salary, :NEW.Salary_Exception, 'Project_Employee');
  end;
  /
@@ -38,7 +38,7 @@ create or replace trigger Manager_trigger
   instead of insert on Manager_view
   for each row
  begin
-  insert into Person( Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Employee_ID, Salary, Salary_Exception, Bonus, Type)
+  insert into CS_Person( Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Employee_ID, Salary, Salary_Exception, Bonus, Type)
   values(:NEW.Person_ID, :NEW.First_Name, :NEW.Last_Name, :NEW.Home_Address, :NEW.Zip_Code, :NEW.Home_Phone, :NEW.US_Citizen, :NEW.Employee_ID, :NEW.Salary, :NEW.Salary_Exception, :NEW.Bonus, 'Manager');
  end;
  /
@@ -50,7 +50,7 @@ create or replace trigger Interim_Manager_trigger
   instead of insert on Interim_Manager_view
   for each row
  begin
-  insert into Person(  Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Employee_ID, Salary, Salary_Exception, Bonus, Type)
+  insert into CS_Person(  Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Employee_ID, Salary, Salary_Exception, Bonus, Type)
   values(:NEW.Person_ID, :NEW.First_Name, :NEW.Last_Name, :NEW.Home_Address, :NEW.Zip_Code, :NEW.Home_Phone, :NEW.US_Citizen, :NEW.Employee_ID, :NEW.Salary, :NEW.Salary_Exception, :NEW.Bonus, 'Interim_Manager');
  end;
  /
@@ -62,7 +62,7 @@ create or replace trigger President_trigger
   instead of insert on President_view
   for each row
  begin
-  insert into Person( Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Employee_ID, Salary, Salary_Exception, Bonus, Type)
+  insert into 347Person( Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Employee_ID, Salary, Salary_Exception, Bonus, Type)
   values(:NEW.Person_ID, :NEW.First_Name, :NEW.Last_Name, :NEW.Home_Address, :NEW.Zip_Code, :NEW.Home_Phone, :NEW.US_Citizen, :NEW.Employee_ID, :NEW.Salary, :NEW.Salary_Exception, :NEW.Bonus, 'President');
  end;
  /
@@ -74,7 +74,7 @@ create or replace trigger Previous_Employee_trigger
   instead of insert on Previous_Employee_view
   for each row
  begin
-  insert into Person(  Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Is-Fired, Salary, Type)
+  insert into CS_Person(  Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Is-Fired, Salary, Type)
   values(:NEW.Person_Id, :NEW.First_Name, :NEW.Last_Name, :NEW.Home_Address, :NEW.Zip_Code, :NEW.Home_Phone, :NEW.US_Citizen, :NEW.Is_Fired, :NEW.Salary, 'Previous_Employee');
  end;
  /
@@ -94,7 +94,7 @@ create or replace TRIGGER Previous_Project_Trigger
 	INSTEAD OF insert ON Previous_Project_View
 	FOR EACH ROW
 BEGIN
-	insert into Project(
+	insert into CS_Proj(
 	Project_No,
 	Project_Title,
 	Type,
@@ -125,7 +125,7 @@ create or replace TRIGGER Current_Project_Trigger
 	INSTEAD OF insert ON Current_Project_View
 	FOR EACH ROW
 BEGIN
-	insert into Project(
+	insert into CS_Proj(
 	Project_No,
 	Project_Title,
 	Type,

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB142797-BFF9-4E6F-FEC9-2D8EDC762E0C" name="Project_Manager">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB142797-BFF9-4E6F-FEC9-2D8EDC762E0C" name="347Proj_Man">
 <createdBy>zacharycasares</createdBy>
 <createdTime>2016-03-31 19:58:14 UTC</createdTime>
 <ownerDesignName>LogicalModelGroupProject</ownerDesignName>

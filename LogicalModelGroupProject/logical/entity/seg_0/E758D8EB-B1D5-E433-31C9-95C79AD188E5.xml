@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E758D8EB-B1D5-E433-31C9-95C79AD188E5" name="Person">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E758D8EB-B1D5-E433-31C9-95C79AD188E5" name="347Person">
 <createdBy>zacharycasares</createdBy>
 <createdTime>2016-03-22 21:03:57 UTC</createdTime>
 <ownerDesignName>LogicalModelGroupProject</ownerDesignName>
@@ -113,6 +113,7 @@
 <engineerTo>
 <item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -152,30 +153,6 @@
 <item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Project_No" id="DD6C5E19-FB20-5587-EAFF-B9720222731F">
-<createdBy>zacharycasares</createdBy>
-<createdTime>2016-03-22 21:13:12 UTC</createdTime>
-<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
-<engineerTo>
-<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Dept_No" id="B812743D-4257-8679-B896-8FCC28A8BA43">
-<createdBy>zacharycasares</createdBy>
-<createdTime>2016-03-22 21:13:41 UTC</createdTime>
-<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
-<engineerTo>
-<item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -223,10 +200,10 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Dept_No1" id="91CC14A6-1CB5-4698-D6B0-2A28D5FFFE86">
+<Attribute name="Dept_No" id="4BFE408C-1041-5494-6AA3-39F93C288962">
 <createdBy>zacharycasares</createdBy>
-<createdTime>2016-03-31 19:52:01 UTC</createdTime>
-<generatorID>1BB7B80B-520A-447E-F3C1-731FE85B2893</generatorID>
+<createdTime>2016-03-31 20:12:38 UTC</createdTime>
+<generatorID>A06BC404-361A-615F-13CC-CE860943D8FE</generatorID>
 <ownerDesignName>LogicalModelGroupProject</ownerDesignName>
 <engineerTo>
 <item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>
@@ -238,10 +215,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Project_No1" id="DEAF98BD-A57A-A157-D09C-B77C0F0A6858">
+<Attribute name="Project_No" id="5A40F708-0058-BFE7-ACCD-DCEE16212599">
 <createdBy>zacharycasares</createdBy>
-<createdTime>2016-03-31 19:52:51 UTC</createdTime>
-<generatorID>DD892418-5A6E-35A1-88FC-818B737F19E1</generatorID>
+<createdTime>2016-03-31 20:13:10 UTC</createdTime>
+<generatorID>16C8E1CD-0F1B-7D72-2D84-D8C041BAB85F</generatorID>
 <ownerDesignName>LogicalModelGroupProject</ownerDesignName>
 <engineerTo>
 <item key="009AAB42-D172-9F58-1868-31A8842917C9" value="true"/>

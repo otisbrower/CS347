@@ -1,33 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3105B0A9-D23D-3748-28EA-BCA7D32B29C5" name="Proj_Subproj">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6FBF6987-259A-10FE-3732-EB48722CA58B" name="347Child_Parent">
 <createdBy>zacharycasares</createdBy>
-<createdTime>2016-03-24 20:22:54 UTC</createdTime>
-<generatorID>C395F2D1-4B41-27F4-A021-D40DC80DB455</generatorID>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>AB9AEB9B-6E38-AF77-A4AA-B895701DC4CD</generatorID>
 <ownerDesignName>LogicalModelGroupProject</ownerDesignName>
-<ordsAlias>project_subproject</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Project_Project_No" id="B004C508-081A-512D-EC1A-F00600A0C7BD">
+<Column name="347Person_Person_ID1" id="7437188F-380C-33F3-9DEA-68371D80D400">
 <createdBy>zacharycasares</createdBy>
-<createdTime>2016-03-24 20:22:54 UTC</createdTime>
-<generatorID>BCE13A48-EB9D-A5FA-4645-7A1BC0D06092</generatorID>
-<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="3EDE98AD-0E92-1D29-E4EE-81BC83C6A81E" referredColumn="53A5E234-BDFC-16E9-841C-4F42CB8801C5"/>
-</associations>
-</Column>
-<Column name="Project_Project_No2" id="1D77C908-340B-033E-33AE-FECFFAD66AD8">
-<createdBy>zacharycasares</createdBy>
-<createdTime>2016-03-24 20:22:54 UTC</createdTime>
-<generatorID>7438F395-F263-7696-FFFE-36F0F7C0F3C7</generatorID>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>1209C290-FFD6-56FE-340B-D24F201CBF94</generatorID>
 <ownerDesignName>LogicalModelGroupProject</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -37,31 +21,46 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="F1D50038-DD2F-AEFE-26AA-315BB732D73D" referredColumn="53A5E234-BDFC-16E9-841C-4F42CB8801C5"/>
+<colAssociation fkAssociation="0C0F2C5A-F4EE-F60F-D304-574AE0FFBA12" referredColumn="8F39786E-25AD-41F3-09CA-7738D2F7129A"/>
+</associations>
+</Column>
+<Column name="347Person_Person_ID" id="CC438D2E-BCDE-28E3-371C-1B7DA91B5F97">
+<createdBy>zacharycasares</createdBy>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>42A9637C-41D4-F5F0-AFEE-1F01E0F25C0F</generatorID>
+<ownerDesignName>LogicalModelGroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8259F1D1-A128-3F2F-4A4B-39174D0BAFF0" referredColumn="8F39786E-25AD-41F3-09CA-7738D2F7129A"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="E8652217-7C4C-C54A-7F01-0D03ED1FE194" name="Proj_Subproj_Project_FK">
+<ind_PK_UK id="F4F8C1DA-2AFD-7D9B-7069-5FABA4CD6F95" name="347Child_Parent_347Person_FK">
 <createdBy>zacharycasares</createdBy>
-<createdTime>2016-03-24 20:22:54 UTC</createdTime>
-<generatorID>0D5CB50B-E6AD-D06A-FDE9-37E320102ED8</generatorID>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>B75BE1D8-3D2F-A5D7-6126-4776B2528412</generatorID>
 <ownerDesignName>LogicalModelGroupProject</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B004C508-081A-512D-EC1A-F00600A0C7BD"/>
+<colUsage columnID="CC438D2E-BCDE-28E3-371C-1B7DA91B5F97"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9168C869-C6C6-02FB-8698-B19A2839CD30" name="Proj_Subproj_Project_FKv2">
+<ind_PK_UK id="A33182CB-A4FD-7425-9FEC-6DAC11A55F2D" name="347Child_Parent_347Person_FKv1">
 <createdBy>zacharycasares</createdBy>
-<createdTime>2016-03-24 20:22:54 UTC</createdTime>
-<generatorID>971FFF28-CF24-C57A-764B-56E1243C9237</generatorID>
+<createdTime>2016-04-07 21:19:38 UTC</createdTime>
+<generatorID>096A5A71-32FE-0665-8D8E-BE1F80A92BDC</generatorID>
 <ownerDesignName>LogicalModelGroupProject</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1D77C908-340B-033E-33AE-FECFFAD66AD8"/>
+<colUsage columnID="7437188F-380C-33F3-9DEA-68371D80D400"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
