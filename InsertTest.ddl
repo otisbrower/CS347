@@ -1,2 +1,2 @@
-insert into Person( Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Employee_ID, Salary, Salary_Exception, Type )
+insert into CS_Person( Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Employee_ID, Salary, Salary_Exception, Type )
   values(1, 'Zach', "Casares", '123 Main St', 78701, 5125551234, True, 123, 1000, False, 'Employee');
