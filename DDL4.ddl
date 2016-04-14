@@ -13,6 +13,10 @@ from Person where type = 'Employee';
 create or replace trigger Employee_trigger
   instead of insert on Employee_view
   for each row
+ begin 
+ select CS_EMPLOYEE_ID_SEQ.nextval into :new.Employee_ID from dual;
+ end; 
+ 
  begin
   insert into CS_Person( Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Employee_ID, Salary, Salary_Exception, Type )
   values(:NEW.Person_ID, :NEW.First_Name, :NEW.Last_Name, :NEW.Home_Address, :NEW.Zip_Code, :NEW.Home_Phone, :NEW.US_Citizen, :NEW.Employee_ID, :NEW.Salary, :NEW.Salary_Exception, 'Employee');
