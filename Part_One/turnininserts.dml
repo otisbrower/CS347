@@ -1,0 +1,98 @@
+--NEW INSERT STATEMENTS
+
+-- Disable PK triggers
+alter trigger CS_Dept_PK_trig disable;
+alter trigger CS_Person_PK_trig disable;
+alter trigger CS_Proj_PK_trig disable;
+
+commit;
+
+-- Disabling constraints
+ALTER TABLE CS_Child_Parent disable CONSTRAINT CS_Child_Parent_CS_Person_FK;
+ALTER TABLE CS_Child_Parent disable CONSTRAINT CS_Child_Parent_CS_Person_FKv1;
+
+ALTER TABLE CS_Person disable CONSTRAINT CS_Person_CS_Dept_FK;
+ALTER TABLE CS_Person disable CONSTRAINT CS_Person_CS_Person_FK;
+ALTER TABLE CS_Person disable CONSTRAINT CS_Person_CS_Proj_FK;
+
+ALTER TABLE CS_Proj disable CONSTRAINT CS_Proj_CS_Dept_FK;
+ALTER TABLE CS_Proj disable CONSTRAINT CS_Proj_CS_Person_FK;
+ALTER TABLE CS_Proj disable CONSTRAINT CS_Proj_CS_Person_FKv1;
+ALTER TABLE CS_Proj disable CONSTRAINT CS_Proj_CS_Proj_FK;
+
+ALTER TABLE CS_Proj_Man disable CONSTRAINT CS_Proj_Man_CS_Person_FK;
+ALTER TABLE CS_Proj_Man disable CONSTRAINT CS_Proj_Man_CS_Proj_FK;
+
+commit;
+
+-- Remove old data
+delete from CS_Person;
+delete from CS_Dept;
+delete from CS_Proj;
+delete from CS_Proj_Man;
+delete from CS_Child_Parent;
+
+commit;
+
+
+--Department
+insert into CS_Dept(Dept_No, Dept_Name) values(97, 'Human Resources');
+insert into CS_Dept(Dept_No, Dept_Name) values(98, 'Marketing');
+insert into CS_Dept(Dept_No, Dept_Name) values(99, 'Product Development');
+
+commit;
+
+--Projects
+insert into CS_Current_Project_View(Project_No, Project_Title, Project_Active, type, CS_PERSON_PERSON_ID1)  values (97,'Market Research','T', 'Current_Project', 108);
+insert into CS_Current_Project_View(Project_No, Project_Title, Project_Active, type, CS_PERSON_PERSON_ID1)  values (98,'Product Development','T', 'Current_Project', 107);
+insert into CS_Current_Project_View(Project_No, Project_Title, Project_Active, type, CS_PERSON_PERSON_ID1)  values (99,'Alien Extermination','F', 'Current_Project', 107);
+
+commit;
+
+
+--Employees
+insert into CS_Employee_View(Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Salary, Salary_Exception, type, CS_Dept_Dept_No, CS_Proj_Project_No) values(89, 'Bill', 'Dawer', '432 Hill Rd', 78705, 7891903, 'T', 2500, 'F', 'Employee', 97, 97);
+insert into CS_Employee_View(Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Salary, Salary_Exception, type, CS_Dept_Dept_No, CS_Proj_Project_No) values(90, 'Diane', 'Wall', '32 Cannon Dr', 78705, 7891903, 'T', 1950, 'F', 'Employee', 97, 98);
+insert into CS_Employee_View(Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Salary, Salary_Exception, type, CS_Dept_Dept_No, CS_Proj_Project_No) values(91, 'Jennifer', 'Brown', '35 Palm Lane', 73104, 2360884, 'T', 2865, 'F', 'Employee', 98, 97);
+insert into CS_Employee_View(Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Salary, Salary_Exception, type, CS_Dept_Dept_No, CS_Proj_Project_No) values(92, 'Alice', 'Dawer', '432 Hill Rd', 78705, 6541658, 'F', 2750, 'F', 'Employee', 98, 98);
+insert into CS_Employee_View(Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Salary, Salary_Exception, type, CS_Dept_Dept_No, CS_Proj_Project_No) values(93, 'George', 'Layton', '347 Nueces St', 78705, 8798798, 'T', 4960, 'F', 'Employee', 99, 97);
+insert into CS_Employee_View(Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Salary, Salary_Exception, type, CS_Dept_Dept_No, CS_Proj_Project_No) values(94, 'Mike', 'Dawer', '432 Hill Rd', 78705, 7891903, 'T', 1250, 'F', 'Employee', 99, 98);
+--Previous Employees
+insert into CS_Previous_Employee_View(Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Is_Fired, Salary, Type)
+  values(95, 'William', 'Paul', '563 30th St', 78705, 6547896, 'T', 'T', 123456, 'Previous_Employee');
+--Managers
+insert into CS_Manager_View(Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Salary, Salary_Exception, type) values(96, 'John', 'Smith', '56 Main St', 78705, 6547532, 'T', 12500, 'F', 'Manager');
+insert into CS_Manager_View(Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen,  Salary, Salary_Exception,type) values(97, 'Jane', 'Parker', '985 1st St', 78705, 3257624, 'T', 11980, 'F', 'Manager');
+--Interim Manager
+insert into CS_Interim_Manager_View(Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Salary, Salary_Exception, Bonus, type) 
+values(98, 'Robert', 'Goldsmith', '753 30th St', 78705, 7543215, 'T', 123456, 'F', 2000, 'Interim_Manager');
+--President
+insert into CS_President_View(Person_ID, First_Name, Last_Name, Home_Address, Zip_Code, Home_Phone, US_Citizen, Salary, Salary_Exception, type) values(99, 'John', 'Brown', '354 12th St', 78705, 6527541, 'T', 90000, 'T', 'President');
+
+commit;
+
+-- Enable PK triggers
+alter trigger CS_Dept_PK_trig enable;
+alter trigger CS_Person_PK_trig enable;
+alter trigger CS_Proj_PK_trig enable;
+
+commit;
+
+-- Enabling constraints
+ALTER TABLE CS_Child_Parent enable CONSTRAINT CS_Child_Parent_CS_Person_FK;
+ALTER TABLE CS_Child_Parent enable CONSTRAINT CS_Child_Parent_CS_Person_FKv1;
+
+ALTER TABLE CS_Person enable CONSTRAINT CS_Person_CS_Dept_FK;
+ALTER TABLE CS_Person enable CONSTRAINT CS_Person_CS_Person_FK;
+ALTER TABLE CS_Person enable CONSTRAINT CS_Person_CS_Proj_FK;
+
+ALTER TABLE CS_Proj enable CONSTRAINT CS_Proj_CS_Dept_FK;
+ALTER TABLE CS_Proj enable CONSTRAINT CS_Proj_CS_Person_FK;
+ALTER TABLE CS_Proj enable CONSTRAINT CS_Proj_CS_Person_FKv1;
+ALTER TABLE CS_Proj enable CONSTRAINT CS_Proj_CS_Proj_FK;
+
+ALTER TABLE CS_Proj_Man enable CONSTRAINT CS_Proj_Man_CS_Person_FK;
+ALTER TABLE CS_Proj_Man enable CONSTRAINT CS_Proj_Man_CS_Proj_FK;
+
+commit;
+
